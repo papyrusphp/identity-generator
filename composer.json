@@ -1,0 +1,32 @@
+{
+    "name": "papyrus/identity-generator",
+    "description": "Identity generator interface for papyrus/event-sourcing",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "identity-generator",
+        "event-store",
+        "event-sourcing",
+        "ddd",
+        "domain-driven-design",
+        "cqrs",
+        "papyrus"
+    ],
+    "authors": [
+        {
+            "name": "Jeroen de Graaf",
+            "email": "hello@jero.work"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Papyrus\\IdentityGenerator\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
